@@ -115,7 +115,7 @@ PrivateData = @{
         Tags = 'Microsoft','Identity','Azure','AzureActiveDirectory','AzureAD','AAD','ActiveDirectory','AD','Incident Response','IR'
 
         # A URL to the license for this module.
-        LicenseUri = 'https://raw.githubusercontent.com/AzureAD/AzureADAssessment/master/LICENSE'
+        LicenseUri = 'https://github.com/AzureAD/Azure-AD-Incident-Response-PowerShell-Module/blob/main/LICENSE'
 
         # A URL to the main website for this project.
         # ProjectUri = ''
