@@ -31,17 +31,18 @@ The module can be found here:
   https://www.powershellgallery.com/packages/AzureADIncidentResponse
  
  
-Please use the latest version. The module has a number of prerequisites that will be automatically installed.
+Please use the latest version. The module has a number of prerequisites that will be automatically installed:
  
   * MSAL.ps PowerShell module
   * AzureAD PowerShell module
   * MSOnline PowerShell module
  
 From within PowerShell you need to run:
- 
+```PowerShell 
   Install-Module -Name AzureADIncidentResponse -AcceptLicense
- 
-  Tip: you may need to trust the PowerShell gallery repository for this action to complete successfully.
+```
+
+  `Tip: you may need to trust the PowerShell gallery repository for this action to complete successfully.`
 
  
 If you encounter an install issue with one of the dependent modules, MSAL.ps, see here for remediation steps:
@@ -49,7 +50,7 @@ If you encounter an install issue with one of the dependent modules, MSAL.ps, se
   https://github.com/AzureAD/MSAL.PS/blob/master/README.md#install-from-the-powershell-gallery
  
  
-NB - one of the cmdlets in the module, Get-AzureADIRPrivilegedUserOnPremCorrelation, makes use of the Windows Server Active Directory module. If you wish to use that cmdlet, then the AzureADIncidentResponse module will need to be installed on a domain joined Windows Server, with connectivity to the internet. The domain will typically be the one in which the Azure AD connect server is installed. The ActiveDirectory PowerShell module will also need to be installed on the target server. 
+`NB - one of the cmdlets in the module, Get-AzureADIRPrivilegedUserOnPremCorrelation, makes use of the Windows Server Active Directory module. If you wish to use that cmdlet, then the AzureADIncidentResponse module will need to be installed on a domain joined Windows Server, with connectivity to the internet. The domain will typically be the one in which the Azure AD connect server is installed. The ActiveDirectory PowerShell module will also need to be installed on the target server.` 
 
 
 ## Contributing
