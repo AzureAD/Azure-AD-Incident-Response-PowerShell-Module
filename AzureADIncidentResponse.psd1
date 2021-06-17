@@ -118,7 +118,7 @@ PrivateData = @{
         LicenseUri = 'https://github.com/AzureAD/Azure-AD-Incident-Response-PowerShell-Module/blob/main/LICENSE'
 
         # A URL to the main website for this project.
-        # ProjectUri = ''
+        ProjectUri = 'https://github.com/AzureAD/Azure-AD-Incident-Response-PowerShell-Module'
 
         # A URL to an icon representing this module.
         # IconUri = ''
