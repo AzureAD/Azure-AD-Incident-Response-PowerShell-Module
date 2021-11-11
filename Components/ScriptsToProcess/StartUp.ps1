@@ -1,4 +1,6 @@
-﻿$HereString = @"
+﻿# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
+$HereString = @"
 
                        £££££££££
                    £££££££££££££££££

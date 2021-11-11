@@ -1,3 +1,5 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT license.
 #
 # Module manifest for module 'AzureADIncidentResponse'
 #
