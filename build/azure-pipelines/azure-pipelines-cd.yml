@@ -148,7 +148,7 @@ stages:
               NuGetApiKeySecretName: 'PSGallery-API-Key'
           - task: GitHubRelease@1
             displayName: 'Create Release on GitHub'
-            condition: and(succeeded(), eq(variables['Build.SourceBranchName'], 'master'))
+            condition: and(succeeded(), eq(variables['Build.SourceBranchName'], 'main'))
             inputs:
               gitHubConnection: 'MSIdentity'
               repositoryName: '$(Build.Repository.Name)'
