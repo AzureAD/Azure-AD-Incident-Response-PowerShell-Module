@@ -15,7 +15,7 @@ trigger:
   batch: true
   branches:
     include:
-    - master
+    - main
     - preview
   paths:
     include:
@@ -26,9 +26,9 @@ trigger:
 variables:
   vmImage: '${{ parameters.vmImage }}'
   #moduleName: 'AzureADIncidentResponse'
-  ${{ if eq(variables['Build.SourceBranchName'], 'master') }}:
+  ${{ if eq(variables['Build.SourceBranchName'], 'main') }}:
     prereleaseTag: 
-  ${{ if ne(variables['Build.SourceBranchName'], 'master') }}:
+  ${{ if ne(variables['Build.SourceBranchName'], 'main') }}:
     prereleaseTag: 'preview'
   artifactModule: 'PSModule'
 
