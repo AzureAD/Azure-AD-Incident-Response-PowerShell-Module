@@ -25,7 +25,7 @@ trigger:
 
 variables:
   vmImage: '${{ parameters.vmImage }}'
-  #moduleName: 'AzureADAssessment'
+  #moduleName: 'AzureADIncidentResponse'
   ${{ if eq(variables['Build.SourceBranchName'], 'master') }}:
     prereleaseTag: 
   ${{ if ne(variables['Build.SourceBranchName'], 'master') }}:
