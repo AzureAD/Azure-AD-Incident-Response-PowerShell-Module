@@ -4,7 +4,7 @@
 resources:
   pipelines:
   - pipeline: 'CI'
-    source: 'AzureAD.AzureADAssessment.CI'
+    source: 'AzureAD.AzureADIR.CI'
     trigger: 
       branches:
         include:
@@ -25,7 +25,7 @@ trigger: none
 pr: none
 
 variables:
-  #moduleName: 'AzureADAssessment'
+  #moduleName: 'AzureADIncidentResponse'
   vmImage: '${{ parameters.vmImage }}'
   artifactModule: 'PSModule'
   artifactModuleSigned: 'PSModuleSigned'
