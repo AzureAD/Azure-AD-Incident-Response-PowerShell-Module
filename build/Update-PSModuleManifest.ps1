@@ -28,8 +28,9 @@ if ($Prerelease) { $paramUpdateModuleManifest['Prerelease'] = $Prerelease }
 
 ## Read Module Manifest
 $ModuleManifest = Import-PowerShellDataFile $ModuleManifestFileInfo.FullName
-$paramUpdateModuleManifest['NestedModules'] = $ModuleManifest.NestedModules
+if ($ModuleManifest.NestedModules) { $paramUpdateModuleManifest['NestedModules'] = $ModuleManifest.NestedModules }
 $paramUpdateModuleManifest['CmdletsToExport'] = $ModuleManifest.CmdletsToExport
+$paramUpdateModuleManifest['FunctionsToExport'] = $ModuleManifest.FunctionsToExport
 $paramUpdateModuleManifest['AliasesToExport'] = $ModuleManifest.AliasesToExport
 [System.IO.DirectoryInfo] $ModuleOutputDirectoryInfo = $ModuleManifestFileInfo.Directory
 
