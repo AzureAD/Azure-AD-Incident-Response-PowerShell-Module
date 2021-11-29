@@ -114,7 +114,7 @@ PrivateData = @{
     PSData = @{
 
         # Tags applied to this module. These help with module discovery in online galleries.
-        Tags = 'Microsoft','Identity','Azure','AzureActiveDirectory','AzureAD','AAD','ActiveDirectory','AD','Incident Response','IR'
+        Tags = 'Microsoft','Identity','Azure','AzureActiveDirectory','AzureAD','AAD','ActiveDirectory','AD','IncidentResponse','IR'
 
         # A URL to the license for this module.
         LicenseUri = 'https://github.com/AzureAD/Azure-AD-Incident-Response-PowerShell-Module/blob/main/LICENSE'
