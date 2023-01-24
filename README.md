@@ -1,7 +1,7 @@
 # Azure AD Incident Response PowerShell Module
 
-[![PSGallery Version](https://img.shields.io/powershellgallery/v/AzureADIncidentResponse)](https://www.powershellgallery.com/packages/AzureADIncidentResponse) 
-[![PSGallery Downloads](https://img.shields.io/powershellgallery/dt/AzureADIncidentResponse)](https://www.powershellgallery.com/packages/AzureADIncidentResponse)
+[![PSGallery Version](https://img.shields.io/powershellgallery/v/AzureADIncidentResponse.svg?style=flat&logo=powershell&label=PSGallery%20Version)](https://www.powershellgallery.com/packages/AzureADIncidentResponse) 
+[![PSGallery Downloads](https://img.shields.io/powershellgallery/dt/AzureADIncidentResponse.svg?style=flat&logo=powershell&label=PSGallery%20Downloads)](https://www.powershellgallery.com/packages/AzureADIncidentResponse)
 
 The Azure Active Directory Incident Response PowerShell module provides a number of tools, developed by the Azure Active Directory Product Group in conjunction with the Microsoft Detection and Response Team (DART), to assist in compromise response.
  
